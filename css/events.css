@@ -1,0 +1,35 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf)
+  }
+
+* {
+    font-family: OpenSans;
+}
+
+#containerHeader {
+background: linear-gradient(rgba(0, 0, 0, 0.7)),
+
+
+
+
+    url(../images/events_header.jpg);
+    background-position-y: -250px;
+    height: 400px;
+    width: auto;
+}
+
+.headerText {
+    font-size: 180%;
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.headerInfo {
+    font-size: 100%;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 0px;
+}

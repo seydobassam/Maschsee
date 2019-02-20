@@ -1,35 +1,25 @@
-@font-face {
-    font-family: OpenSans;
-    src: url(../fonts/OpenSans-Regular.ttf)
-  }
-
-* {
-    font-family: OpenSans;
-}
-
 #containerHeader {
-background: linear-gradient(rgba(0, 0, 0, 0.7)),
-
-
-
-
-    url(../images/events_header.jpg);
-    background-position-y: -250px;
-    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/events_header.jpg");
+    background-size: cover;
+    background-position-y: -200px;
+    height: 500px;
     width: auto;
+    position: relative;
+    margin-top: -60px;
 }
 
-.headerText {
-    font-size: 180%;
-    color: white;
+#headerText {
     text-align: center;
     padding-top: 170px;
+    color: white;
 }
 
-.headerInfo {
-    font-size: 100%;
-    color: white;
-    opacity: 0.8;
-    text-align: center;
-    padding-top: 0px;
+.navbar.solid {
+    background-color: rgb(255, 255, 255);
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 20px rgb(221, 221, 221);
+}
+
+.nav-color {
+    color: black;
 }

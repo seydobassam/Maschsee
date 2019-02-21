@@ -1,10 +1,10 @@
+/* ID's */
+
 #containerHeader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/events_header.jpg");
     background-size: cover;
-    background-position-y: -200px;
-    height: 500px;
+    height: 101vh;
     width: auto;
-    position: relative;
     margin-top: -60px;
 }
 
@@ -14,12 +14,32 @@
     color: white;
 }
 
+/* Classes */
+
 .navbar.solid {
-    background-color: rgb(255, 255, 255);
-    transition: background-color 1s ease 0s;
+    animation: solid 1s normal forwards ease;
     box-shadow: 0 0 20px rgb(221, 221, 221);
+}
+
+.navbar.transparent {
+    animation: transparent 1s normal forwards ease;
+    box-shadow: transparent;
 }
 
 .nav-color {
     color: black;
+}
+
+/* Animations */
+
+@keyframes solid {
+    to {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes transparent {
+    to {
+        background-color: transparent;
+    }
 }

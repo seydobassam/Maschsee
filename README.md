@@ -1,1 +1,1 @@
-# Maschsee
+# Die beste Webseite der Welt.

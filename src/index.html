@@ -1,57 +1,350 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Website Title -->
-  <title>Maschsee | Startseite</title>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link href="css/style.css" rel="stylesheet">
 
-  <!-- Favicon -->
-  <link rel="icon" href="../images/favicon.png" type="image/png" />
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="../js/jquery-3.3.1.min.js"></script>
-  <script src="../js/popper.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
 </head>
+
 <body>
+  <header id="header">
+    <div class="container-fluid">
 
-  <!-- Navbar -->
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="../images/favicon.png" width="30" height="30" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Aktivitäten</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="history.html">Geschichte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Kontakt</a>
-          </li>
-        </ul>
+      <div id="logo" class="pull-left">
+        <h1><a class="scrollto">Maschsee</a></h1>
       </div>
-    </nav>
-  </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="./index.html">Aktivitäten</a></li>
+          <li><a href="./index.html">Geschichte</a></li>
+          <li><a href="#about">Über</a></li>
+          <li><a href="#footer">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/project-images/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Maschsee</h2>
+                <p>
+                  Eines der beliebtesten Ausflugsziele und Naherholungsgebiete in der Stadt: Der Maschsee mitten in der
+                  City zieht Wassersportler ebenso an, wie er zum Flanieren, Radfahren oder Joggen einlädt.
+                </p>
+                <a href="#featured-services" class="btn-get-started scrollto">Loslegen</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/project-images/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Besuchen Sie Hannover</h2>
+                <p>
+                  Hannover entspannt an seinem maritimen Paradies: Weit über die Stadtgrenzen hinaus bekannt und sicher
+                  eines der beliebtesten Ausflugsziele Hannovers ist der rd. 0,8 Quadratkilometer große Maschsee.
+                </p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/project-images/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Sonnenuntergang</h2>
+                <p>Der Maschsee ist ein künstlich angelegter 2,4 km langer und 180 bis 530 m breiter See südlich des
+                  Stadtzentrums von Hannover.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/project-images/4.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Maschseefest</h2>
+                <p>
+                  Das Maschseefest ist ein etwa dreiwöchiges Fest in Hannover, das jährlich im Sommer an den
+                  Uferpromenaden rund um den Maschsee stattfindet. Es gilt als Deutschlands größtes Seefest.
+                </p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+
+
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Über Maschsee</h3>
+          <p>
+            Der Name des Sees leitet sich von der sogenannten „Leinemasch“ oder einfach „Masch“ ab. Dies ist die
+            historische Flurbezeichnung für das Gebiet, in dem der See angelegt wurde. Es ist ein tiefer gelegenes
+            Überschwemmungsgebiet der Leine. Die Entstehung des Begriffs Masch steht im Zusammenhang mit dem
+            Landschaftstyp der Marsch.
+          </p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-images/1.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Die Flotte</a></h2>
+              <p>
+                Kleinstes Schiff der Flotte ist die "Hannover", die wegen ihres offenen Verdecks fast ausschließlich bei
+                schönem Wetter verkehrt. Als Partykreuzer mit Platz für bis zu 50 Personen und der entsprechenden
+                Ausstattung (inkl. Musikanlage) ...
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-images/2.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-musical-notes"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Audiospaziergang am Maschsee</a></h2>
+              <p>
+                Der Audiospaziergang "Maschsee Geschichte weiterdenken" präsentiert in sechs Stationen sowohl die
+                Entstehung, die NS-Kunst und NS-Baupläne rund um den Maschsee als auch ausgewählte Orte der Opfer wie
+                den Ehrenfriedhof Maschsee-Nordufer ...
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-images/3.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Maschseefest</a></h2>
+              <p>
+                Nach dem wohl heißesten Start eines Maschseefests am 1. August, blieben die Temperaturen in der ersten
+                Festwoche konstant hoch. Am Donnerstag, 9.8. musste das Maschseefest auf Grund einer Unwetterwarnung des
+                Deutschen ...
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Unsere Dienstleistungen</h3>
+        </header>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-map"></i></div>
+            <h4 class="title"><a href=""> Tourismus</a></h4>
+            <p class="description">Wann ist der passende Moment? Das fragen sich viele, die einen Ausflug planen. Hier
+              finden Sie die typischen Ausflugsziele und Veranstaltungen in den Regionsorten ...
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-videocamera"></i></div>
+            <h4 class="title"><a href="">Presse</a></h4>
+            <p class="description">Pressemitteilungen, Ansprechpartner für Medienanfragen, Bildrecherchen, Internet und
+              Veranstaltungen
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-android-bus"></i></div>
+            <h4 class="title"><a href="">Busse ersetzen</a></h4>
+            <p class="description">
+              Der Streckenabschnitt zwischen der Haltestelle "Schwarzer Bär" und dem Endpunkt "Empelde" ist am 25. und
+              26. Mai, für die Straßenbahnlinie 9 nicht befahrbar.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-people"></i></div>
+            <h4 class="title"><a href="">Kundenzentrum</a></h4>
+            <p class="description">Elektroschrottmarken, gelbe und blaue Säcke sowie Sperrmülltermine: Im ersten Stock
+              des Üstra-Kundenzentrums bietet Aha zusätzlich zum bereits bestehenden Serviceangebot umfassende
+              Serviceleistungen und Informationen an.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-model-s"></i></div>
+            <h4 class="title"><a href="">Parken</a></h4>
+            <p class="description">
+              Bequemer geht’s nicht: Im Verkehrsgebiet des Großraum-Verkehr Hannover (GVH) gibt es zur Zeit rund 6.100
+              Stellplätze für PKW. Alle Park + Ride Anlagen können kostenlos genutzt werden, </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-home"></i></div>
+            <h4 class="title"><a href="">Museumsführer</a></h4>
+            <p class="description">
+              Historisches Museum, Küchen- oder Straßenbahnmuseum – hier gibt es Museen-Übersichten: die Top-Museen der
+              Stadt, Heimatmuseen in der Region sowie Museen von A bis Z.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Kontakt</h3>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Anschrift</h3>
+              <address>Trammplatz 2. 30159 Hannover</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Telefonnummer</h3>
+              <p><a href="tel:+155895548855">+49 511-12345-111</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">info@hannover-tourismus.de</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email"
+                  data-msg="Please enter a valid email" />
+
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-msg="Please write something for us"
+                placeholder="Text"></textarea>
+            </div>
+            <div class="text-center"><button type="submit">Nachricht senden</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>MMBbS</strong>. Alle Rechte vorbehalten
+      </div>
+      <div class="credits">
+        <a href="https://bootstrapmade.com/">Bassam, Nico, Jan</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+  <script src="js/main.js"></script>
+
+
 </body>
 
 </html>

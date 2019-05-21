@@ -2,41 +2,51 @@
 <html lang="en">
 
 <head>
-  <link href="img/favicon.png" rel="icon">
+  <title>Maschsee • Home</title>
+
+  <link rel="icon" href="../images/favicon.png" type="image/png" />
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="../css/default.css" rel="stylesheet"/>
 
 </head>
 
 <body>
-  <header id="header">
-    <div class="container-fluid">
-
-      <div id="logo" class="pull-left">
-        <h1><a class="scrollto">Maschsee</a></h1>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <a class="navbar-brand" href="#">
+      <img src="../images/favicon.png" width="30" height="30" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link nav-color" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link nav-color" href="events.html">Aktivitäten</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link nav-color" href="history.html">Geschichte</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link nav-color" href="index.html#footer">Kontakt</a>
+            </li>
+         </ul>
       </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="./index.html">Aktivitäten</a></li>
-          <li><a href="./index.html">Geschichte</a></li>
-          <li><a href="#about">Über</a></li>
-          <li><a href="#footer">Kontakt</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+   </nav>
 
   <section id="intro">
     <div class="intro-container">
@@ -115,15 +125,15 @@
     </div>
   </section>
 
-  <main id="main">
+  <main id="main"> 
 
 
 
     <section id="about">
       <div class="container">
 
-        <header class="section-header">
-          <h3>Über Maschsee</h3>
+        <header class="section-header" style="background-color: #0F0F0F;">
+          <h3>Über den Maschsee</h3>
           <p>
             Der Name des Sees leitet sich von der sogenannten „Leinemasch“ oder einfach „Masch“ ab. Dies ist die
             historische Flurbezeichnung für das Gebiet, in dem der See angelegt wurde. Es ist ein tiefer gelegenes
@@ -188,10 +198,10 @@
 
 
 
-    <section id="services">
+    <section id="services" style="background-color: #0F0F0F;">
       <div class="container">
 
-        <header class="section-header wow fadeInUp">
+        <header class="section-header wow fadeInUp" style="background-color: #0F0F0F;">
           <h3>Unsere Dienstleistungen</h3>
         </header>
         <div class="row">
@@ -249,7 +259,7 @@
 
 
 
-    <section id="contact" class="section-bg wow fadeInUp">
+    <section id="contact" class="section-bg wow fadeInUp" style="background-color: #0F0F0F;">
       <div class="container">
 
         <div class="section-header">
@@ -312,19 +322,20 @@
   </main>
 
 
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>MMBbS</strong>. Alle Rechte vorbehalten
-      </div>
-      <div class="credits">
-        <a href="https://bootstrapmade.com/">Bassam, Nico, Jan</a>
-      </div>
-    </div>
-  </footer>
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
+   <!-- Website Footer -->
+      <div class="footer" id="footer">
+          <div id="footerContent">
+             <img src="../images/favicon.png" width="50" height="50" alt="">
+    
+             <div id="footerLinks">
+                <a href="index.html" class="footerLink">Home</a>
+                <a href="events.html" class="footerLink">Aktivitäten</a>
+                <a href="history.html" class="footerLink">Geschichte</a>
+                <a href="index.html#footer" class="footerLink">Kontakt</a>
+             </div>
+    
+             <div style="font-weight: bold;">Nico, Bassam & Jan © 2019</div>
+          </div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -340,6 +351,7 @@
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="../"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
   <script src="js/main.js"></script>

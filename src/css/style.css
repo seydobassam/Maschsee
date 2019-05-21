@@ -522,7 +522,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -555,7 +555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  color: #333;
+  color: white ;
 }
 
 
@@ -566,8 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
-  background-size: cover;
+  background-color: #0F0F0F;
   padding: 60px 0 40px 0;
   position: relative;
 }
@@ -579,7 +578,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
   z-index: 9;
 }
 
@@ -589,7 +587,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col {
-  background: #fff;
+  background: #141414;
+  color: white;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
@@ -634,7 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col h2 {
-  color: #000;
+  color: white;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
@@ -643,7 +642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col h2 a {
-  color: #000;
+  color: white;
 }
 
 #about .about-col h2 a:hover {
@@ -653,7 +652,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-col p {
   font-size: 14px;
   line-height: 24px;
-  color: #333;
+  color: white;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
@@ -689,7 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #111;
+  color: white;
 }
 
 #services .box:hover .title a {
@@ -724,7 +723,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: white;
 }
 
 #contact .contact-info h3 {
@@ -732,11 +731,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: white;
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: white;
 }
 
 #contact .contact-info a:hover {
@@ -761,7 +760,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form input,
 #contact .form textarea {
+  background-color: #141414;
   padding: 10px 14px;
+  color: white;
+  border-color: transparent;
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
@@ -783,7 +785,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #footer {
-  background: #000;
+  background: #141414;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
